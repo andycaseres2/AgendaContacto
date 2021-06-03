@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(17, 10, 10, 0.774);
+  color: #fff;
+}
+.container {
+  height: 100vh;
+  width: 70vh;
+  margin: 2rem auto;
+}
+
+.header-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.container-agenda {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-agenda > input {
+  margin: 0.5rem 0rem;
+  line-height: 2rem;
+  background: none;
+  outline: 0;
+  border: 0;
+  color: white;
+}
+
+.container-agenda input:active {
+  border-bottom: 1px solid dodgerblue;
+}
+.container-agenda input:focus {
+  border-bottom: 1px solid dodgerblue;
+}
+.btn-agregar-contactos {
+  background: dodgerblue;
+  border: none;
+  height: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.listado-contactos {
+  display: block;
+  flex-direction: column;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icono {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
